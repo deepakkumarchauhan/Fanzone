@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_0" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="ufonts.com_avantgarde-book.ttf">
+            <string>AvantGarde-Book</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="FFUserDetailSectionHeader">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ZFy-GI-BNy">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="360"/>
+                    <subviews>
+                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="q9d-H0-wOq">
+                            <rect key="frame" x="0.0" y="0.0" width="320" height="172"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="172" id="qem-fO-8oA"/>
+                            </constraints>
+                        </imageView>
+                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="72d-im-ceV">
+                            <rect key="frame" x="8" y="174" width="107" height="155"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="155" id="9LX-f8-CBE"/>
+                                <constraint firstAttribute="width" constant="107" id="qpx-iW-yt4"/>
+                            </constraints>
+                        </imageView>
+                        <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HKN-O7-IVd">
+                            <rect key="frame" x="8" y="331" width="101" height="20"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="20" id="Rw7-gu-Z7w"/>
+                                <constraint firstAttribute="width" constant="101" id="Y6y-iD-pC7"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="AvantGarde-Book" family="AvantGarde-Book" pointSize="16"/>
+                            <color key="textColor" red="0.3411764706" green="0.78823529410000004" blue="0.98039215690000003" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WmS-B1-Zbh">
+                            <rect key="frame" x="126" y="244" width="76" height="20"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="76" id="5c3-1n-xFM"/>
+                                <constraint firstAttribute="height" constant="20" id="dOd-jA-hic"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="AvantGarde-Book" family="AvantGarde-Book" pointSize="16"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Jj7-EJ-4x8">
+                            <rect key="frame" x="126" y="273" width="76" height="20"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="76" id="0vz-6b-0iw"/>
+                                <constraint firstAttribute="height" constant="20" id="hv1-uX-Igr"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="AvantGarde-Book" family="AvantGarde-Book" pointSize="16"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9Zx-EO-bwA">
+                            <rect key="frame" x="126" y="302" width="76" height="20"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="76" id="SRK-2W-Fua"/>
+                                <constraint firstAttribute="height" constant="20" id="T4U-2U-DUg"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="AvantGarde-Book" family="AvantGarde-Book" pointSize="16"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Connections" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="l08-tQ-7eE">
+                            <rect key="frame" x="216" y="244" width="100" height="21"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="21" id="o6k-si-Vis"/>
+                                <constraint firstAttribute="width" constant="100" id="qsf-S6-rmH"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="AvantGarde-Book" family="AvantGarde-Book" pointSize="16"/>
+                            <color key="textColor" red="1" green="0.3008866436" blue="0.24456568510000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Followers" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jNy-Is-Iji">
+                            <rect key="frame" x="216" y="273" width="100" height="21"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="100" id="2ZD-Tk-loe"/>
+                                <constraint firstAttribute="height" constant="21" id="bsm-0h-yOl"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="AvantGarde-Book" family="AvantGarde-Book" pointSize="16"/>
+                            <color key="textColor" red="1" green="0.3008866436" blue="0.24456568510000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Stylepoints" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Lz4-y9-tTx">
+                            <rect key="frame" x="216" y="302" width="100" height="21"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="21" id="NgM-8e-opa"/>
+                                <constraint firstAttribute="width" constant="100" id="lOK-Ki-7tz"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="AvantGarde-Book" family="AvantGarde-Book" pointSize="16"/>
+                            <color key="textColor" red="1" green="0.3008866436" blue="0.24456568510000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="prI-5i-mnr">
+                            <rect key="frame" x="124" y="204" width="98" height="31"/>
+                            <color key="backgroundColor" red="0.30588235289999999" green="0.75294117650000003" blue="0.79607843140000001" alpha="1" colorSpace="calibratedRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="31" id="HwM-h9-k5n"/>
+                                <constraint firstAttribute="width" constant="98" id="MuI-2e-nrc"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="AvantGarde-Book" family="AvantGarde-Book" pointSize="16"/>
+                            <state key="normal" image="connect"/>
+                        </button>
+                        <textField opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="a6Y-xh-rOn" customClass="FFTextField">
+                            <rect key="frame" x="123" y="179" width="194" height="20"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="20" id="Okw-B8-FK8"/>
+                            </constraints>
+                            <nil key="textColor"/>
+                            <fontDescription key="fontDescription" name="AvantGarde-Book" family="AvantGarde-Book" pointSize="18"/>
+                            <textInputTraits key="textInputTraits"/>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="number" keyPath="paddingValue">
+                                    <integer key="value" value="10"/>
+                                </userDefinedRuntimeAttribute>
+                            </userDefinedRuntimeAttributes>
+                        </textField>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstItem="Lz4-y9-tTx" firstAttribute="top" secondItem="jNy-Is-Iji" secondAttribute="bottom" constant="8" id="0Sj-i1-SaD"/>
+                        <constraint firstItem="Jj7-EJ-4x8" firstAttribute="leading" secondItem="72d-im-ceV" secondAttribute="trailing" constant="11" id="4bV-Y6-gHf"/>
+                        <constraint firstItem="Jj7-EJ-4x8" firstAttribute="top" secondItem="WmS-B1-Zbh" secondAttribute="bottom" constant="9" id="77E-az-uer"/>
+                        <constraint firstItem="a6Y-xh-rOn" firstAttribute="top" secondItem="q9d-H0-wOq" secondAttribute="bottom" constant="7" id="ED8-Yy-S7y"/>
+                        <constraint firstItem="WmS-B1-Zbh" firstAttribute="top" secondItem="prI-5i-mnr" secondAttribute="bottom" constant="9" id="GQA-2T-oUf"/>
+                        <constraint firstItem="HKN-O7-IVd" firstAttribute="top" secondItem="72d-im-ceV" secondAttribute="bottom" constant="2" id="HFZ-o1-KHH"/>
+                        <constraint firstItem="9Zx-EO-bwA" firstAttribute="top" secondItem="Jj7-EJ-4x8" secondAttribute="bottom" constant="9" id="ISJ-ak-Ocv"/>
+                        <constraint firstAttribute="height" constant="360" id="LWk-fT-iPc"/>
+                        <constraint firstItem="q9d-H0-wOq" firstAttribute="top" secondItem="ZFy-GI-BNy" secondAttribute="top" id="NQb-eE-NTr"/>
+                        <constraint firstAttribute="trailing" secondItem="jNy-Is-Iji" secondAttribute="trailing" constant="4" id="NtA-kS-ULk"/>
+                        <constraint firstAttribute="bottom" secondItem="9Zx-EO-bwA" secondAttribute="bottom" constant="38" id="O5k-PO-NxE"/>
+                        <constraint firstAttribute="trailing" secondItem="Lz4-y9-tTx" secondAttribute="trailing" constant="4" id="TEV-Y9-wwT"/>
+                        <constraint firstAttribute="bottom" secondItem="HKN-O7-IVd" secondAttribute="bottom" constant="9" id="c0u-eo-GXZ"/>
+                        <constraint firstItem="9Zx-EO-bwA" firstAttribute="leading" secondItem="72d-im-ceV" secondAttribute="trailing" constant="11" id="dQc-mG-7Pd"/>
+                        <constraint firstItem="jNy-Is-Iji" firstAttribute="top" secondItem="l08-tQ-7eE" secondAttribute="bottom" constant="8" id="hBc-Ey-naJ"/>
+                        <constraint firstItem="a6Y-xh-rOn" firstAttribute="leading" secondItem="72d-im-ceV" secondAttribute="trailing" constant="8" id="hzb-aq-TrP"/>
+                        <constraint firstAttribute="trailing" secondItem="q9d-H0-wOq" secondAttribute="trailing" id="jRo-bl-YPJ"/>
+                        <constraint firstItem="prI-5i-mnr" firstAttribute="leading" secondItem="72d-im-ceV" secondAttribute="trailing" constant="9" id="jSl-XC-dIQ"/>
+                        <constraint firstItem="9Zx-EO-bwA" firstAttribute="top" secondItem="Jj7-EJ-4x8" secondAttribute="bottom" constant="9" id="jYb-ae-GdM"/>
+                        <constraint firstItem="72d-im-ceV" firstAttribute="top" secondItem="q9d-H0-wOq" secondAttribute="bottom" constant="2" id="knd-Lz-jyV"/>
+                        <constraint firstItem="WmS-B1-Zbh" firstAttribute="leading" secondItem="72d-im-ceV" secondAttribute="trailing" constant="11" id="krg-pF-hP7"/>
+                        <constraint firstItem="q9d-H0-wOq" firstAttribute="leading" secondItem="ZFy-GI-BNy" secondAttribute="leading" id="piG-1n-PKE"/>
+                        <constraint firstItem="72d-im-ceV" firstAttribute="leading" secondItem="ZFy-GI-BNy" secondAttribute="leading" constant="8" id="qGU-Wd-Gnb"/>
+                        <constraint firstItem="l08-tQ-7eE" firstAttribute="top" secondItem="prI-5i-mnr" secondAttribute="bottom" constant="9" id="saF-Nf-IsB"/>
+                        <constraint firstItem="HKN-O7-IVd" firstAttribute="leading" secondItem="ZFy-GI-BNy" secondAttribute="leading" constant="8" id="tUX-CZ-eFU"/>
+                        <constraint firstItem="HKN-O7-IVd" firstAttribute="top" secondItem="72d-im-ceV" secondAttribute="bottom" constant="2" id="uuZ-RV-s9w"/>
+                        <constraint firstAttribute="trailing" secondItem="l08-tQ-7eE" secondAttribute="trailing" constant="4" id="y9M-eb-ZhP"/>
+                        <constraint firstItem="72d-im-ceV" firstAttribute="top" secondItem="q9d-H0-wOq" secondAttribute="bottom" constant="2" id="ych-Gk-DEW"/>
+                        <constraint firstAttribute="bottom" secondItem="Lz4-y9-tTx" secondAttribute="bottom" constant="37" id="zid-AV-1kG"/>
+                        <constraint firstAttribute="trailing" secondItem="a6Y-xh-rOn" secondAttribute="trailing" constant="3" id="zkR-K2-bTG"/>
+                        <constraint firstItem="Lz4-y9-tTx" firstAttribute="top" secondItem="jNy-Is-Iji" secondAttribute="bottom" constant="8" id="zxI-NH-56E"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="ZFy-GI-BNy" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="8Yi-CW-Fpd"/>
+                <constraint firstItem="ZFy-GI-BNy" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="DO3-lH-eY4"/>
+                <constraint firstAttribute="trailing" secondItem="ZFy-GI-BNy" secondAttribute="trailing" id="tib-dm-gWo"/>
+            </constraints>
+            <connections>
+                <outlet property="bannerView" destination="q9d-H0-wOq" id="s8M-AK-bn7"/>
+                <outlet property="connectionBtn" destination="prI-5i-mnr" id="mmO-uP-4N5"/>
+                <outlet property="editBtn" destination="prI-5i-mnr" id="2TO-25-bZb"/>
+                <outlet property="noIfStypePoints" destination="9Zx-EO-bwA" id="pZf-qI-75U"/>
+                <outlet property="noOfConnections" destination="WmS-B1-Zbh" id="6s3-jm-dYM"/>
+                <outlet property="noOfFolloerws" destination="Jj7-EJ-4x8" id="8O9-fI-hHZ"/>
+                <outlet property="profileImageView" destination="72d-im-ceV" id="eB9-CX-JAd"/>
+                <outlet property="userNameTextFeilds" destination="a6Y-xh-rOn" id="RsC-SO-ega"/>
+                <outlet property="verifiedLabel" destination="HKN-O7-IVd" id="4DO-5R-tOL"/>
+            </connections>
+            <point key="canvasLocation" x="-90" y="-33"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="connect" width="98" height="31"/>
+    </resources>
+</document>

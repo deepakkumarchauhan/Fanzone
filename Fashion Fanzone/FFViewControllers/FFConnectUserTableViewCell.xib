@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="ufonts.com_avantgarde-book.ttf">
+            <string>AvantGarde-Book</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="connectionUserCellId" id="IdZ-Cg-9wv" customClass="FFConnectUserTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="318" height="53"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="IdZ-Cg-9wv" id="wZv-WS-B8o">
+                <rect key="frame" x="0.0" y="0.0" width="318" height="52"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Ubm-Qk-1VB">
+                        <rect key="frame" x="12" y="2" width="47" height="47"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="47" id="GrJ-Fi-JHQ"/>
+                            <constraint firstAttribute="width" constant="47" id="XiN-p0-pEL"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CdB-L8-RPv">
+                        <rect key="frame" x="67" y="2" width="149" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="21" id="FxT-Qu-l1C"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="AvantGarde-Book" family="AvantGarde-Book" pointSize="16"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Uxh-Zl-51A">
+                        <rect key="frame" x="67" y="23" width="149" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="21" id="PBW-jo-mgB"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="AvantGarde-Book" family="AvantGarde-Book" pointSize="12"/>
+                        <color key="textColor" red="0.93333333330000001" green="0.0" blue="0.047058823530000002" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="evN-5A-jod">
+                        <rect key="frame" x="224" y="11.5" width="82" height="30"/>
+                        <color key="backgroundColor" red="0.0" green="0.83529411760000005" blue="0.98431372549999996" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="30" id="JAm-IW-gvx"/>
+                            <constraint firstAttribute="width" constant="82" id="rp9-MB-Mdy"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="AvantGarde-Book" family="AvantGarde-Book" pointSize="13"/>
+                        <state key="normal" title="Connect" image="connect">
+                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        </state>
+                    </button>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="CdB-L8-RPv" firstAttribute="centerY" secondItem="Ubm-Qk-1VB" secondAttribute="centerY" constant="-13" id="D0z-aA-GXa"/>
+                    <constraint firstItem="evN-5A-jod" firstAttribute="leading" secondItem="Uxh-Zl-51A" secondAttribute="trailing" constant="8" id="E8U-ae-uUb"/>
+                    <constraint firstItem="evN-5A-jod" firstAttribute="centerY" secondItem="wZv-WS-B8o" secondAttribute="centerY" id="H00-pb-obd"/>
+                    <constraint firstItem="evN-5A-jod" firstAttribute="leading" secondItem="CdB-L8-RPv" secondAttribute="trailing" constant="8" id="Iu7-P4-rO3"/>
+                    <constraint firstItem="Uxh-Zl-51A" firstAttribute="top" secondItem="CdB-L8-RPv" secondAttribute="bottom" id="PBC-tW-h6N"/>
+                    <constraint firstItem="Ubm-Qk-1VB" firstAttribute="leading" secondItem="wZv-WS-B8o" secondAttribute="leading" constant="12" id="TZT-V6-eZ0"/>
+                    <constraint firstItem="Uxh-Zl-51A" firstAttribute="leading" secondItem="Ubm-Qk-1VB" secondAttribute="trailing" constant="8" id="WNW-M7-96Y"/>
+                    <constraint firstItem="Ubm-Qk-1VB" firstAttribute="centerY" secondItem="wZv-WS-B8o" secondAttribute="centerY" id="ZuS-gS-cDK"/>
+                    <constraint firstItem="CdB-L8-RPv" firstAttribute="leading" secondItem="Ubm-Qk-1VB" secondAttribute="trailing" constant="8" id="bZw-VF-UeD"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="evN-5A-jod" secondAttribute="trailing" constant="4" id="fke-N9-zAI"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="connectButton" destination="evN-5A-jod" id="yXU-wr-jt0"/>
+                <outlet property="nameLabel" destination="CdB-L8-RPv" id="S9t-kk-ICS"/>
+                <outlet property="profileImageView" destination="Ubm-Qk-1VB" id="a7X-Hu-1si"/>
+                <outlet property="stylePointsLabel" destination="Uxh-Zl-51A" id="KfC-7V-ERA"/>
+            </connections>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="connect" width="98" height="31"/>
+    </resources>
+</document>
